@@ -1,0 +1,3460 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d41a23f12bc1464f9ce452f17ccf4d2a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d41a23f12bc1464f9ce452f17ccf4d2a" ></div>
+        
+</body>
+<script>    
+    
+            var map_d41a23f12bc1464f9ce452f17ccf4d2a = L.map(
+                "map_d41a23f12bc1464f9ce452f17ccf4d2a",
+                {
+                    center: [-15.7751257, -48.0785352],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_80dce3334a4e48f7870466291ad01df3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d41a23f12bc1464f9ce452f17ccf4d2a);
+        
+    
+            var feature_group_b793fed651ab41119312f035361e979b = L.featureGroup(
+                {}
+            ).addTo(map_d41a23f12bc1464f9ce452f17ccf4d2a);
+        
+    
+            var circle_62b208dcd78b44f8af8217af8bc585db = L.circle(
+                [-15.7908403078715, -47.87965647379557],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_bc4a70326bc24f18b22c86f95e3cfb93 = L.circle(
+                [-15.80051428155054, -47.88699345649043],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_de2c8c85201b4cfabc9c69463bcb8e65 = L.circle(
+                [-15.803814888000488, -47.88410949707031],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_c8a98f53eaf34e7f9b87ec00ed40dfee = L.circle(
+                [-15.811343669891357, -47.88865940387432],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_57a0401a10784f87b68df7fbf23e4ddb = L.circle(
+                [-15.815324340547834, -47.89123780386789],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f5f4fcc0383c4a9ba11a5cf0f0108976 = L.circle(
+                [-15.817402839660645, -47.89886452169979],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_ceb9667e7d274b25a82f10b6392e9fb8 = L.circle(
+                [-15.801762651514125, -47.89171402542679],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_432156b6c2724453a798b8138907ab6b = L.circle(
+                [-15.80069669087728, -47.8891970316569],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_c3e59be34ec94f4c99715e148616842d = L.circle(
+                [-15.80666592541863, -47.89655550788431],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_e2470a19570b47109c1815388620ad31 = L.circle(
+                [-15.814966466691759, -47.902024798923065],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_a361c32e88cb479c8a157c13ca40cbfb = L.circle(
+                [-15.807409385840097, -47.90174102783203],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_bc714e94f8d7425388722228e18bd13e = L.circle(
+                [-15.810851153205423, -47.90084547155044],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_45c65c7ec31d4c0887e1e89d2b01c969 = L.circle(
+                [-15.821573594037224, -47.91581344604492],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f726d7d5ae34463b81bd96bc08f04bb3 = L.circle(
+                [-15.795775572458902, -47.890219370524086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_60e6c5aacab241c08a8491bdf61ae850 = L.circle(
+                [-15.789576006185323, -47.92953029852262],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_cab36c16456c413ea1faaa57494fb966 = L.circle(
+                [-15.796064183602926, -47.92391344456892],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_27271a2a8d704e548ea291d58ee0aa38 = L.circle(
+                [-15.757960789640185, -47.91774760501485],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_881ae17f1fcd44e8b670a4da375acf09 = L.circle(
+                [-15.767054516336191, -47.87676935610564],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_b15b2af51e65457aa526865b4cdb6082 = L.circle(
+                [-15.781067721048991, -47.882782236735025],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f0f0908cec0a4da8af931830914d46ca = L.circle(
+                [-15.772464022916907, -47.88346391565659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_121c1fe0b6c94c12bd487a0d3d5ae769 = L.circle(
+                [-15.772188354940976, -47.883658689611096],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_dc1a9c2406b6413b9b8a298e44cb9242 = L.circle(
+                [-15.766002021986862, -47.89157604349071],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_9768c0b8a74a4c1592096729402d068d = L.circle(
+                [-15.75012853410509, -47.8979369269477],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_5ced4291f1304fa0adb0146feb467616 = L.circle(
+                [-15.766020901997884, -47.885145314534505],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_14950e058ad84dfc8803508d459e5a61 = L.circle(
+                [-15.769399843717876, -47.88789186979595],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_11a324577d22433da27ee403984a9ac2 = L.circle(
+                [-15.769748634762234, -47.88819440205892],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_9c80d784020a44a3bb7805da87a56c7f = L.circle(
+                [-15.763980865478516, -47.888499365912544],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_ca73a065225144179e29206775cd51d6 = L.circle(
+                [-15.761001371300738, -47.893070884372875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_00e18ee5f04d4a2e95776926cd3af565 = L.circle(
+                [-15.757545263870902, -47.89070328422215],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_71aa3849e860450b8bdc3a06e9dd57c7 = L.circle(
+                [-15.751900430311236, -47.895868334853866],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_6e89a80f184545cc866e2c2022107358 = L.circle(
+                [-15.752058929867214, -47.8926027086046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_8dc37d77a3bc4a6c94eedd4451985d59 = L.circle(
+                [-15.748373126983642, -47.89317874908447],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_4da78397fa7f4ee2b0c80def747296b9 = L.circle(
+                [-15.749160216672577, -47.900016923890504],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_abd89e1a98664bcdaa9e0e21a07c5c07 = L.circle(
+                [-15.74267312100059, -47.894364607961556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_fb8017fdad1d4d47a38e43fa8d6b68ec = L.circle(
+                [-15.738835620880128, -47.89692497253419],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_2ed3abbe109442b2af339da89056d42b = L.circle(
+                [-15.801477739887853, -47.919982540991995],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_219b82fad67a4437a7121e2fd26f7529 = L.circle(
+                [-15.784004171689352, -47.8794059753418],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_e78e8bb63c414f1c9a36e3777d01c8ca = L.circle(
+                [-15.780658111572265, -47.87750274658203],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_4992ace48f844518b5718d1bf4549469 = L.circle(
+                [-15.760773153866038, -47.88361470839556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_39e1ad424288445983950dbcf72ab504 = L.circle(
+                [-15.764908225448043, -47.878119998508026],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_acd8ba2553144fc2a495f63034d10eab = L.circle(
+                [-15.756284766727024, -47.883746253119575],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_7ff973ded56041308dc383f61c7b6db4 = L.circle(
+                [-15.754676659901937, -47.88115564982096],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_489ecdc5834d4cc2a6c967542172810a = L.circle(
+                [-15.748642132200043, -47.88307992343245],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_03e73f3088814e25a8320189744a061b = L.circle(
+                [-15.745821447933421, -47.88739597096163],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_385bba5ab9754144bf409a8fb22b956e = L.circle(
+                [-15.741032319910387, -47.88863215726965],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_b5d3ce59d34d49abb524643dfb366fd0 = L.circle(
+                [-15.738243215224323, -47.889634525074676],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f2d7640729074b018f3dadf0619c116e = L.circle(
+                [-15.754302787780762, -47.88948104858398],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f36a75878c014129a4bd27a546374315 = L.circle(
+                [-15.736547205183241, -47.886939154730904],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_e0d5d81e5b8c4b11a9309fe5aaad9dc9 = L.circle(
+                [-15.7438355833292, -47.92713898420334],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_4498b4fa7c0648808efaa55c2a843e17 = L.circle(
+                [-15.730690505153449, -47.95766126647476],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_3add58d524564562ac5800707c252751 = L.circle(
+                [-15.72028, -47.88104],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_6bd79a1f269f486da08cc339d94b949e = L.circle(
+                [-15.727227680718721, -47.86779500477351],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_b7d0f4de4c7644dfb0754d2054553427 = L.circle(
+                [-15.728272220544648, -47.882792958042074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_2abfc6944f004e9dbddab4c53e6f0eb1 = L.circle(
+                [-15.745205147625649, -47.84674965845395],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_18d2d77c72e7443dabb1ebd86c8fef2f = L.circle(
+                [-15.740923508353855, -47.86784196936566],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_47b795d7738c4ff18df67cd0137dc610 = L.circle(
+                [-15.747645166185167, -47.85179318322076],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_2593bdcbf751410fbb88ef98e3cc7172 = L.circle(
+                [-15.759505489894321, -47.838681139264786],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_83285010fd43496f9884abee876720ce = L.circle(
+                [-15.758946863810221, -47.83240865071615],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_a5cd7a883de4476e830cf8eb8d194c8d = L.circle(
+                [-15.770884195963541, -47.81191060876331],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_3f91a629490d4699b4f1f2be3de1cdb0 = L.circle(
+                [-15.73855407776371, -47.90178865002048],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_d9a8b8e3b27c4d34affd20f664aa7b4c = L.circle(
+                [-15.733633271182876, -47.9792737845915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_8cd5b1ca75614955a15f08f3555787f1 = L.circle(
+                [-15.753774278304157, -47.812369374667895],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_7729b92c5c5f4c5fb1bd6722295d0e84 = L.circle(
+                [-15.804430961608887, -47.77749061584473],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_4ec1d34226cf4764920df966e4fa08f8 = L.circle(
+                [-15.792656135559081, -47.6882209777832],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_c555948eb3e74ea9ad1ab2c9df515cf9 = L.circle(
+                [-15.693670519282309, -47.87171873885591],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_2a9e75028bd047cdbce4b8395ab2b08d = L.circle(
+                [-15.725035633359637, -47.968451499938965],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_42fde92b854f4e12b3e02673c6949308 = L.circle(
+                [-15.757472038269043, -47.746395111083984],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_7864878e951549c7a4a729e94b8802eb = L.circle(
+                [-15.686425229336352, -48.092472157579785],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_943582a23c5a4e4d92f4634fa17b8b1c = L.circle(
+                [-15.842785517374674, -47.84029204757125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_04c05512011148b6986f367da69b57e1 = L.circle(
+                [-15.822752016895222, -47.81606595021374],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_6ab382cf756e4c67b06fba00baa84a51 = L.circle(
+                [-15.828756960955532, -47.81523331728849],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_573d0b71c318430a933faae520b3dd04 = L.circle(
+                [-15.861313903142536, -47.82247449481298],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_34dae1d186f0483cb5cab0c7741e1f41 = L.circle(
+                [-15.876312035780687, -47.80824397160457],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_3da5d840c21945fa88efae8efb42a7e3 = L.circle(
+                [-15.86821142019936, -47.84984828717408],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_fa4a2e76667f491b96f39f80d50cd2c7 = L.circle(
+                [-15.88978185468507, -47.8133531774132],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_2489b7fac7304bbdb18e59c257d005f6 = L.circle(
+                [-15.895906925201416, -47.7934071035946],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_d2bc178844eb4d99ab6c8fcde3a5d22a = L.circle(
+                [-15.883336768430823, -47.83970193301932],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_464613b9e09a4894b2cdd03efe5e7acb = L.circle(
+                [-15.72602419699392, -48.07496975314233],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_032bb265854d4046b68da5368711c01c = L.circle(
+                [-15.889373383432064, -47.96025265387769],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_74da43a10c4e4675a03baebf17aa8107 = L.circle(
+                [-15.87566774232047, -48.00891472044445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_a15d182e4eb2473e9ab935504820ab59 = L.circle(
+                [-15.882053052462064, -48.016207064115086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_5ecec6e5b7a2400f96391a7f45503f3b = L.circle(
+                [-15.866660594940186, -48.02769660949707],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_4569199fbacb40a99a471ada185a3f5b = L.circle(
+                [-15.840214490890503, -48.02726650238037],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_1bba40d700a54bd798b0cab646d838c1 = L.circle(
+                [-15.83764934539795, -48.03471565246582],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_738341255f264016867f278e3af01ca3 = L.circle(
+                [-15.857962090628488, -48.005462392171225],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_3b3aaed6c7bc4a9b8096ff727fea593c = L.circle(
+                [-15.836732541708122, -48.051055621383775],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_8158c1a7d3534ac19d56e7ea6f395cce = L.circle(
+                [-15.838919778303666, -48.05027673894709],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_5d14a5fd8156499e830f005aafb28eb4 = L.circle(
+                [-15.843701651926791, -48.04206063774195],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_60ff0848cfd44d77b4679c4272ac14bb = L.circle(
+                [-15.854929521050252, -48.03762290847133],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_83f0f27559174abfabf72d62903b8a17 = L.circle(
+                [-15.823409670875186, -48.05655149429563],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_df9d8ab4a470481bb6057e2796f94144 = L.circle(
+                [-15.80874183361347, -48.06018289419321],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_5d13b76f06604e79849752cd4ce123bb = L.circle(
+                [-15.796434270924536, -48.10622327081089],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_6a01457176af485c89f8d5895b2142a0 = L.circle(
+                [-15.826443090892973, -48.074629393078034],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_227b843a91384b18ad93777732c8efe3 = L.circle(
+                [-15.76644515991211, -47.54608917236328],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_9406e975876d451f8bde8ae2edc8aaed = L.circle(
+                [-15.831220782660191, -48.106954462387996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f510f127d309479b89cd15f93c09dec5 = L.circle(
+                [-15.813798179751949, -48.113367143430224],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_1049bf9c611240b7ac354d301a6b672f = L.circle(
+                [-15.83351182937622, -48.14302730560303],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_7fbba8d9dde94ebdbf3172c577e06fda = L.circle(
+                [-15.84111021368543, -48.11308088355303],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_a18a56c2f03247acabe1d3d426376402 = L.circle(
+                [-15.84760163281415, -48.11845927195506],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_9032b526dfe3469f842c5df4105e1d0d = L.circle(
+                [-15.854436286084063, -48.10261879958116],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_8f451b3b782d459aa0d9623aa85b485e = L.circle(
+                [-15.818755542530733, -48.12632158423672],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_d4cb76df06db4f3c8bcabca22c40ca69 = L.circle(
+                [-15.811110930009322, -48.1308926402272],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_ddfcfa8add314e2a8bb3491269e3c46f = L.circle(
+                [-15.80841781876304, -48.140836629000574],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_014b35883b5540239a1742423ae975ba = L.circle(
+                [-15.794782762403612, -48.121042127733105],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_36077236e3234762b8a7c16e01a4f858 = L.circle(
+                [-15.798767979939779, -48.120944286528086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_a3475880d251420a877714d57bbda5bf = L.circle(
+                [-15.79960519472758, -48.13561690648397],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_3a51734f50a948f7924c658eda191e8e = L.circle(
+                [-15.782768249511719, -48.138343811035156],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_4871a71b4ea14012b3fb6c4a59fa74e7 = L.circle(
+                [-15.807188367380679, -48.137362804227664],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_c5d4d22f4a004762815db181a060cf60 = L.circle(
+                [-15.80468944736294, -48.153150091638096],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_57ba2073027c4001b91cb90db3d7edc3 = L.circle(
+                [-15.885276007652283, -48.10269832611082],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f2fbed255aed4e5f885e77d430d318bd = L.circle(
+                [-15.892185493254326, -48.11979476498886],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_8837c57806e6495d98436a6b6c79ede8 = L.circle(
+                [-15.886929465340568, -48.09548742120918],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_986aee8526e34182bedefc2dc7ea57e7 = L.circle(
+                [-15.889217520118656, -48.09602743163145],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_2b8ca23849584431b0b616f7b97a6950 = L.circle(
+                [-16.02397150807566, -48.13530106977983],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_4335b3f784e842ffa013159cf784e908 = L.circle(
+                [-15.863867159242984, -48.06947413449565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_62ae5884385a46789b3b9db6f8abb2d6 = L.circle(
+                [-15.885047331788487, -48.12246093176361],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_a20f238224e644e3a4317c1c66e0cedb = L.circle(
+                [-15.88875569968388, -48.131809716937184],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_0f2068e6a1014bbea190411c3aa3de8c = L.circle(
+                [-15.893197555541992, -48.1427653503418],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_e3714857311543af8010dfc83d80c763 = L.circle(
+                [-15.889976156518815, -48.14550351082011],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_fe8d15f1a6984b1f98c89e80d8c901ca = L.circle(
+                [-15.886544908796038, -48.05283062798636],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_831995395a004ada8589b66fdd8df1ed = L.circle(
+                [-16.01446, -48.05283],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_12919988ba90481b860ed9e650da8269 = L.circle(
+                [-16.01721, -48.08201],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_d0fcc43d54144338b13cd14ea636aee7 = L.circle(
+                [-15.75170714297193, -48.26999648073886],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_cf6ea855d9dc4d228cdb97212c3b6d9a = L.circle(
+                [-15.977516174316406, -48.05133819580078],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_48af567c2f384236acc1845075248d73 = L.circle(
+                [-15.965852921882284, -48.101963749638315],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_7cd4fb4b335d4ba49bb941f4b55eea0b = L.circle(
+                [-16.00695, -48.05993],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_d585de108c35473fa4b2d68fb1d2f157 = L.circle(
+                [-16.019411510891384, -48.00996949937608],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_2a53dc12d6d844a583f0f493c4f940ad = L.circle(
+                [-15.825848579406738, -47.97620703957298],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_43cd8ccafda5418caa390a0217479cdb = L.circle(
+                [-16.017317295074463, -48.03314208984375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_451f07df63244c4a8e55fc67d0a3249a = L.circle(
+                [-16.00918, -48.06418],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_81f019fa8acf439d8b814d9c10c2c331 = L.circle(
+                [-16.028407183560457, -48.031832261519],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_5b1427e359744d7d82f80fccd4cd876e = L.circle(
+                [-15.76644515991211, -47.54608917236328],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_6d37da0ca4cf4073ba26bf3f5aa434f2 = L.circle(
+                [-16.03196442568743, -48.022270202636726],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_8fb72e33439941099f005ec60b4cc896 = L.circle(
+                [-15.972364793744003, -47.99956418756853],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_17ab927c32f349ad9c4262b2998fe895 = L.circle(
+                [-16.01147123129971, -48.01521705719362],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_67a436d057bf411aac396a29d86c6865 = L.circle(
+                [-16.006511312849984, -48.02031906614911],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_559247cc163c438581fbed6339706c93 = L.circle(
+                [-15.990777651468912, -48.0157155442512],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_5fea6088ae524ede8fe3d5af415bea00 = L.circle(
+                [-15.992047866185507, -48.02520253923204],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_26397fe03f4946c38dab281a7ced6231 = L.circle(
+                [-15.982486089070639, -48.00579630533854],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_b99b4844e6aa4e89a44f748d416d06ad = L.circle(
+                [-16.001670413547096, -48.00654856363932],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_82a8b01f2d93472b8c14123ff7ac58cd = L.circle(
+                [-16.013548109266495, -48.0103715967249],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_ecd9e8a864364ce0beea4a07cdd4ffb1 = L.circle(
+                [-15.973992788303665, -47.971701638740406],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_ad17d1736aa9474a83845efeb1f39bed = L.circle(
+                [-15.989065730893934, -47.98404964240821],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_d4262df2b935457db5de3da73308cb71 = L.circle(
+                [-15.967591567915314, -47.98481590893804],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_4031854c533947fda45da62a1e9b27d4 = L.circle(
+                [-15.99645, -47.99895],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_01c61815e8bc4f31b94578ec90584033 = L.circle(
+                [-16.153386439917224, -47.958073885935654],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_9bddabe4b87a48b885d24d3afc7543df = L.circle(
+                [-15.76644515991211, -47.54608917236328],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_49b5be69325d4cbd911bf6cb5abd8c63 = L.circle(
+                [-15.876106190080403, -47.855648553671955],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f38e7ab109cc4810b0e767fd93df8f4f = L.circle(
+                [-15.85009089993759, -47.99523952645317],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_430d8047450c4d4d9cf190d6e2c2f38c = L.circle(
+                [-15.867465192621404, -48.00490604747426],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_5622f52346964f3ebadb1a5c0c56c21e = L.circle(
+                [-15.917288025220236, -48.04683809810214],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_6b7f477bf10b4624bde0c6de81dd48a3 = L.circle(
+                [-15.930713497675383, -48.10090318092933],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f53c2586f8ac4642accf8483078e039c = L.circle(
+                [-16.31869648348901, -48.112447184901086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_300660dc43ff42cd9c344e93f29441ec = L.circle(
+                [-15.765537071228028, -48.13187866210937],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_85acca54fe38462f9d864d896e9c9a5c = L.circle(
+                [-15.737998549617938, -48.02017382721404],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_1d5d4217b4eb4fe9bfae3f3cc807579d = L.circle(
+                [-15.709934404451554, -48.05794237737786],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_6b8220c1d3c7490b9da10d364fa704c4 = L.circle(
+                [-15.668941005583733, -48.068902169504476],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_05bc537c0f7a49fc834974d8c4c903ca = L.circle(
+                [-15.905258279097708, -47.78440856933594],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_138988c0b32d49b49d3b3dcf169c2cd5 = L.circle(
+                [-15.727287948131561, -48.1690719127655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_5d19d9af5be845afb63ad759f6f5ad7b = L.circle(
+                [-15.669687112172445, -48.16783777872721],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_a7d7cd76fe5441acb9afeec22530ac88 = L.circle(
+                [-15.731787810454497, -48.11101160822688],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_0845e643934c4466839c786363c7876e = L.circle(
+                [-15.645587348937989, -47.81093521118164],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_3868f2de2f974230b853ab5c36cd4150 = L.circle(
+                [-15.692551136016846, -47.81929471415858],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_c73c4b12e50d47a9b2d1073d981d3b64 = L.circle(
+                [-15.676930457923063, -48.089500986087096],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_9868dd49daf6420fb392fb09bd61a0f3 = L.circle(
+                [-15.70700486501058, -47.769151263766815],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_1b46bf3b16504da6bacb17145687ea55 = L.circle(
+                [-15.722845106858474, -47.92129557682918],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_b90fa83c0d6a4f80afbea62362b23ca9 = L.circle(
+                [-15.70398203531901, -47.97638408954327],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f476c748b1cb4ba08a3190d8c6352818 = L.circle(
+                [-15.681188901265463, -47.96616299947103],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_0d6eafdcddd84eb9ae5363d4be145406 = L.circle(
+                [-15.74945292265519, -47.88814146622367],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_47c24a126be14ef6b75122b839420eac = L.circle(
+                [-15.751509189605713, -47.88378119468689],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_63e5009aa7924f5fb63aa6eb8f271dae = L.circle(
+                [-15.777152044731274, -47.910787047001335],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_60dd0930e10f4a1d83ca183ba5f9348b = L.circle(
+                [-15.674624880154928, -47.854174031151665],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_172e8223c60a4a5eafbd6412a2ec6b2d = L.circle(
+                [-15.653221698517495, -47.82841878579864],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_1d9fbdb7ab6445a6af8674e97ca8e1ac = L.circle(
+                [-15.65297713646522, -47.82179098862868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_b281f0ec84664f94b004fb18e9083bec = L.circle(
+                [-15.89371406822874, -47.9354312963653],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_9d07f417cbd941c998e6b78951998242 = L.circle(
+                [-15.637057065963745, -47.820850451787315],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_e64fa9b7b7fd40d48aa00b7631153eb4 = L.circle(
+                [-15.64531161738377, -47.83638239841835],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_c9e68495db06428eab80e61906cc908a = L.circle(
+                [-15.682702216235073, -47.852852214466445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_ae5123df54e949ca9402790ccc2041d6 = L.circle(
+                [-15.664032173156738, -47.83847452799479],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_50af13bab89f44d2806adb33905c7056 = L.circle(
+                [-15.637619972229004, -47.850040435791016],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_cafea4f1775440e09fc11bb214430348 = L.circle(
+                [-15.694703909067007, -47.853051112248345],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_c6fa7111b92e46299c214d7891dc3402 = L.circle(
+                [-15.60197, -47.87104],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f62c2473ad8d4049acd30a5e80a6388a = L.circle(
+                [-15.59192419052124, -47.885732650756836],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_e53e2d5c168547ea891c7950612d9063 = L.circle(
+                [-15.685874394008092, -47.85090037754604],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_22d45d9dc2c443aab1396e74b76e9a7a = L.circle(
+                [-15.709695611681257, -48.09091527121408],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_050fd9ece3b246028c252f4f768c4a72 = L.circle(
+                [-15.757631659507751, -47.77082824707031],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_07cd23e641b64e88814641501d4a1f4c = L.circle(
+                [-15.660315001638311, -47.76773930599815],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_8956f28af82d49c287069bc13e63a0ed = L.circle(
+                [-15.69877004623413, -47.72951889038086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_661b928605a545ffa77c728c1033429f = L.circle(
+                [-15.724712286422502, -47.83728238006136],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_f9cd9ca04a75459787de9b0a28988636 = L.circle(
+                [-15.60946, -47.87104],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_e434602eb85040e68058644ff86e6a4e = L.circle(
+                [-15.70437214812454, -47.93475729105425],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_b10f927f864641cf9c451c1d19b14c08 = L.circle(
+                [-15.681456184387207, -47.812922922770184],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_15633cc05c0343e6bf3a75e946e4698e = L.circle(
+                [-15.968177458819222, -48.062295352711395],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_1671b9fc8d3840229c11398161cef7f5 = L.circle(
+                [-15.71283476492938, -47.96741356569178],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_6295c8e8897e4ec891ee7d5496cf94c8 = L.circle(
+                [-15.753944139702375, -47.87952875536541],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_dc9dfa363d1d4c398b10fca0c890576c = L.circle(
+                [-15.618128256364303, -47.69465533169833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_672c16674f894cbaabbcfdfcbb4eaa6b = L.circle(
+                [-15.78091303507487, -47.61340459187826],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_b3501d98534d4d70b9566244dbf8aef6 = L.circle(
+                [-15.68461793752817, -47.821565481332634],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_fcaebd7af2a54a9b9088e3f3c2abbb1c = L.circle(
+                [-15.718281989194908, -47.858586136175674],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_858c4754602d419faf5eab88e57ddb46 = L.circle(
+                [-15.693275077922925, -47.77218272234943],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var circle_1d285e15bdcb44bc8ba89748cb0c3d37 = L.circle(
+                [-15.76644515991211, -47.54608917236328],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_b793fed651ab41119312f035361e979b);
+        
+    
+            var feature_group_5e17b9c13fc14b9cb235b98a48ddd045 = L.featureGroup(
+                {}
+            ).addTo(map_d41a23f12bc1464f9ce452f17ccf4d2a);
+        
+    
+            var marker_95f0857f95f34a63ae01e65578e517f4 = L.marker(
+                [-15.79091440153516, -48.071726491628624],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_2a27b731df3e4c9482c7a5f44d22d408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95f0857f95f34a63ae01e65578e517f4.setIcon(icon_2a27b731df3e4c9482c7a5f44d22d408);
+        
+    
+            marker_95f0857f95f34a63ae01e65578e517f4.bindTooltip(
+                `<div>
+                     UBS 1 ITAPOA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cca7bc283ba443cbba680ca35ce8b353 = L.marker(
+                [-15.821935796737671, -47.89060411453247],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_c1660c0757014d9d9c8235e4fd5165b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cca7bc283ba443cbba680ca35ce8b353.setIcon(icon_c1660c0757014d9d9c8235e4fd5165b8);
+        
+    
+            marker_cca7bc283ba443cbba680ca35ce8b353.bindTooltip(
+                `<div>
+                     UBS 01 ASA SUL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d1fbe818a1643d781cf16caf7ab21bd = L.marker(
+                [-15.823909759521484, -47.897708892822266],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_a9b3d7000f474779aea3cc93df578061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d1fbe818a1643d781cf16caf7ab21bd.setIcon(icon_a9b3d7000f474779aea3cc93df578061);
+        
+    
+            marker_8d1fbe818a1643d781cf16caf7ab21bd.bindTooltip(
+                `<div>
+                     HOSPITAL MATERNO INFANTIL DE BRASILIA HMIB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_471bd3f31b3b4a2c8659ce28a671070e = L.marker(
+                [-15.8369220665523, -47.932854652404785],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_bed124827ced4d1c8766d95e7ea71753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_471bd3f31b3b4a2c8659ce28a671070e.setIcon(icon_bed124827ced4d1c8766d95e7ea71753);
+        
+    
+            marker_471bd3f31b3b4a2c8659ce28a671070e.bindTooltip(
+                `<div>
+                     UBS 5 GRANJA DO TORTO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5aaf009adb544959b1fada45005f6b8 = L.marker(
+                [-15.789749740006087, -47.93998738078328],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_acceb13cdf1c4462a60f2a91be7492fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5aaf009adb544959b1fada45005f6b8.setIcon(icon_acceb13cdf1c4462a60f2a91be7492fb);
+        
+    
+            marker_b5aaf009adb544959b1fada45005f6b8.bindTooltip(
+                `<div>
+                     UBS 2 CRUZEIRO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_534518c22d1b408da333e872da768d6c = L.marker(
+                [-15.767054516336191, -47.87676935610564],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_1418995e6bb24c4d957c851e1eb7244d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_534518c22d1b408da333e872da768d6c.setIcon(icon_1418995e6bb24c4d957c851e1eb7244d);
+        
+    
+            marker_534518c22d1b408da333e872da768d6c.bindTooltip(
+                `<div>
+                     HRAN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e7cee69dd0f435cb3aa288e3e9ee475 = L.marker(
+                [-15.749557124243843, -47.89183023240831],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_f14f409120c14aaa91938748b8e7863b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e7cee69dd0f435cb3aa288e3e9ee475.setIcon(icon_f14f409120c14aaa91938748b8e7863b);
+        
+    
+            marker_1e7cee69dd0f435cb3aa288e3e9ee475.bindTooltip(
+                `<div>
+                     UBS 2 ASA NORTE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dcc5811633640e2b528d6ef61073c5d = L.marker(
+                [-15.756921934425284, -47.894852139534215],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_dd3b42db5a344d8b8a1110fd3e4a11bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6dcc5811633640e2b528d6ef61073c5d.setIcon(icon_dd3b42db5a344d8b8a1110fd3e4a11bc);
+        
+    
+            marker_6dcc5811633640e2b528d6ef61073c5d.bindTooltip(
+                `<div>
+                     UBS 1 ASA NORTE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad9d131d4bfc413cadd1010766264e22 = L.marker(
+                [-15.801477739887853, -47.919982540991995],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_225125ce2c05445aab791275259953c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad9d131d4bfc413cadd1010766264e22.setIcon(icon_225125ce2c05445aab791275259953c7);
+        
+    
+            marker_ad9d131d4bfc413cadd1010766264e22.bindTooltip(
+                `<div>
+                     UBS 3 ASA NORTE VILA PLANALTO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b859722a463044a8bf6b6fb095ef0249 = L.marker(
+                [-15.815762454065784, -47.98510788226949],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_232847154e6d4847a4a362aac28cb0af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b859722a463044a8bf6b6fb095ef0249.setIcon(icon_232847154e6d4847a4a362aac28cb0af);
+        
+    
+            marker_b859722a463044a8bf6b6fb095ef0249.bindTooltip(
+                `<div>
+                     HOSPITAL REGIONAL DO GUARA I
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa9fe7075f624521a1377cd474f44893 = L.marker(
+                [-15.815762454065784, -47.98510788226949],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_ec5165b6ff464008b6e853e036299455 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa9fe7075f624521a1377cd474f44893.setIcon(icon_ec5165b6ff464008b6e853e036299455);
+        
+    
+            marker_fa9fe7075f624521a1377cd474f44893.bindTooltip(
+                `<div>
+                     UBS 01 GUARA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42ccf50ed7244b3e94ef03cab352f5c4 = L.marker(
+                [-15.821730928048074, -47.983459131677726],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_1b9608fa7fa64eb2a225473d1d8ba271 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_42ccf50ed7244b3e94ef03cab352f5c4.setIcon(icon_1b9608fa7fa64eb2a225473d1d8ba271);
+        
+    
+            marker_42ccf50ed7244b3e94ef03cab352f5c4.bindTooltip(
+                `<div>
+                     UBS 04 GUARA LUCIO COSTA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa5df9d3902f4437b0483417190dd3e8 = L.marker(
+                [-15.818758676129002, -47.96447958484773],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_93cd2d34cbaa4ecb9233e58bd519c65a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa5df9d3902f4437b0483417190dd3e8.setIcon(icon_93cd2d34cbaa4ecb9233e58bd519c65a);
+        
+    
+            marker_fa5df9d3902f4437b0483417190dd3e8.bindTooltip(
+                `<div>
+                     UBS 01 ESTRUTURAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b7b391912254a48b9d2b7fab42cc0d6 = L.marker(
+                [-15.829805850982666, -47.97182893753052],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_2d5728dce7f14c4aa3776a90ef78f501 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b7b391912254a48b9d2b7fab42cc0d6.setIcon(icon_2d5728dce7f14c4aa3776a90ef78f501);
+        
+    
+            marker_7b7b391912254a48b9d2b7fab42cc0d6.bindTooltip(
+                `<div>
+                     UBS 02 GUARA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_454cca1e87ed43f183454365006ca7ec = L.marker(
+                [-15.821015076015307, -47.972600621762474],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_e09f593e23ca41b8a13fce3b756a893a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_454cca1e87ed43f183454365006ca7ec.setIcon(icon_e09f593e23ca41b8a13fce3b756a893a);
+        
+    
+            marker_454cca1e87ed43f183454365006ca7ec.bindTooltip(
+                `<div>
+                     UBS 03 GUARA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6dc35c8c7fa4a2bbb583f28bb27a839 = L.marker(
+                [-15.727227680718721, -47.86779500477351],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_296d96ba487b459b88b5b386cb9b5dca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6dc35c8c7fa4a2bbb583f28bb27a839.setIcon(icon_296d96ba487b459b88b5b386cb9b5dca);
+        
+    
+            marker_b6dc35c8c7fa4a2bbb583f28bb27a839.bindTooltip(
+                `<div>
+                     UBS 1 LAGO NORTE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2be867398342486cbc917b8d11d288ee = L.marker(
+                [-15.729068354556436, -47.95540257504113],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_f125807fe16a4b8d904cabe40931ad8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2be867398342486cbc917b8d11d288ee.setIcon(icon_f125807fe16a4b8d904cabe40931ad8c);
+        
+    
+            marker_2be867398342486cbc917b8d11d288ee.bindTooltip(
+                `<div>
+                     UBS 1 VARJAO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd4ef996eb3a4a2689f987697a2c27a7 = L.marker(
+                [-15.733633271182876, -47.9792737845915],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_2d10e0213b684ec188b10e59ede61f96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd4ef996eb3a4a2689f987697a2c27a7.setIcon(icon_2d10e0213b684ec188b10e59ede61f96);
+        
+    
+            marker_fd4ef996eb3a4a2689f987697a2c27a7.bindTooltip(
+                `<div>
+                     UBS 3 PARANOA PARQUE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e62aed7607a41ba90a31df514add441 = L.marker(
+                [-15.733633271182876, -47.9792737845915],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_061963ffc9fa442aa1d0fcf01fee528b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e62aed7607a41ba90a31df514add441.setIcon(icon_061963ffc9fa442aa1d0fcf01fee528b);
+        
+    
+            marker_6e62aed7607a41ba90a31df514add441.bindTooltip(
+                `<div>
+                     HRL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_947c297aa0b64da1ad7b98ce1e70b7b5 = L.marker(
+                [-15.733633271182876, -47.9792737845915],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_bbd25ea1d4b64e7c94302b678dc8ee83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_947c297aa0b64da1ad7b98ce1e70b7b5.setIcon(icon_bbd25ea1d4b64e7c94302b678dc8ee83);
+        
+    
+            marker_947c297aa0b64da1ad7b98ce1e70b7b5.bindTooltip(
+                `<div>
+                     UBS 1 PARANOA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_622bf9555659403dbbb0b71359c48d43 = L.marker(
+                [-15.753774278304157, -47.812369374667895],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_8e6311db7ae04f0589bc548aeda9a18b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_622bf9555659403dbbb0b71359c48d43.setIcon(icon_8e6311db7ae04f0589bc548aeda9a18b);
+        
+    
+            marker_622bf9555659403dbbb0b71359c48d43.bindTooltip(
+                `<div>
+                     UBS 4 JARDIM II PARANOA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a54c1bbe7ac047b092dcbd4a06e9b017 = L.marker(
+                [-15.739953059776157, -47.913563073850156],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_589d3dd6bece44f08014e7fda576f387 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a54c1bbe7ac047b092dcbd4a06e9b017.setIcon(icon_589d3dd6bece44f08014e7fda576f387);
+        
+    
+            marker_a54c1bbe7ac047b092dcbd4a06e9b017.bindTooltip(
+                `<div>
+                     UBS 7 CAFE SEM TROCO PARANOA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30614363e35a4875acffddc5e0afce8f = L.marker(
+                [-15.739953059776157, -47.913563073850156],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_cfb8dab673954f939791690e876477b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_30614363e35a4875acffddc5e0afce8f.setIcon(icon_cfb8dab673954f939791690e876477b1);
+        
+    
+            marker_30614363e35a4875acffddc5e0afce8f.bindTooltip(
+                `<div>
+                     UBS 5 QUEBRADA DOS NERES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7927d950c3eb4757a38719eeff46733d = L.marker(
+                [-15.739953059776157, -47.913563073850156],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_570c9ea3d4dd42c082a9b3ef5fb71b79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7927d950c3eb4757a38719eeff46733d.setIcon(icon_570c9ea3d4dd42c082a9b3ef5fb71b79);
+        
+    
+            marker_7927d950c3eb4757a38719eeff46733d.bindTooltip(
+                `<div>
+                     UBS 6 CARIRU PARANOA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f386ece07c5d499f980af2f65ba2f6b3 = L.marker(
+                [-15.856493992275661, -47.86401087443034],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_e15b8b3d20504f8090f40ffde450027c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f386ece07c5d499f980af2f65ba2f6b3.setIcon(icon_e15b8b3d20504f8090f40ffde450027c);
+        
+    
+            marker_f386ece07c5d499f980af2f65ba2f6b3.bindTooltip(
+                `<div>
+                     POLICLINICA LAGO SUL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e0ae9d9db1c44f59a61e66dd96bcfb6 = L.marker(
+                [-15.86821142019936, -47.84984828717408],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_5e16c395c3544a56b252e051dd404100 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e0ae9d9db1c44f59a61e66dd96bcfb6.setIcon(icon_5e16c395c3544a56b252e051dd404100);
+        
+    
+            marker_6e0ae9d9db1c44f59a61e66dd96bcfb6.bindTooltip(
+                `<div>
+                     UBS 19 VILA DO BOA SAO SEBASTIAO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6c7b3605efd41c58d6a6cec5c7c07bc = L.marker(
+                [-15.86821142019936, -47.84984828717408],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_6263a6c1004c4c3caf2815beeef36205 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6c7b3605efd41c58d6a6cec5c7c07bc.setIcon(icon_6263a6c1004c4c3caf2815beeef36205);
+        
+    
+            marker_b6c7b3605efd41c58d6a6cec5c7c07bc.bindTooltip(
+                `<div>
+                     UBS 14 CDP SAO SEBASTIAO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_359729fb914645b9a43497bb51d2052e = L.marker(
+                [-15.86821142019936, -47.84984828717408],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_15c900d536224719bfdca78f3490f034 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_359729fb914645b9a43497bb51d2052e.setIcon(icon_15c900d536224719bfdca78f3490f034);
+        
+    
+            marker_359729fb914645b9a43497bb51d2052e.bindTooltip(
+                `<div>
+                     UBS 1 SAO SEBASTIAO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06bd516d5b614f669c218093d687c42e = L.marker(
+                [-15.86821142019936, -47.84984828717408],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_ceed1a7e5b174cec8f4639e4874ca7dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06bd516d5b614f669c218093d687c42e.setIcon(icon_ceed1a7e5b174cec8f4639e4874ca7dd);
+        
+    
+            marker_06bd516d5b614f669c218093d687c42e.bindTooltip(
+                `<div>
+                     UBS 2 T R E SAO SEBASTIAO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10e5ad039552472094c490bb326eae11 = L.marker(
+                [-15.864378148033506, -47.890681548345654],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_3da6627908894dc39625f8c06b12bb85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10e5ad039552472094c490bb326eae11.setIcon(icon_3da6627908894dc39625f8c06b12bb85);
+        
+    
+            marker_10e5ad039552472094c490bb326eae11.bindTooltip(
+                `<div>
+                     UBS 9 RESIDENCIAL DO BOSQUE 1 SAO SEBASTIAO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29ab9e8189f244f99bf5fe2713cf0db5 = L.marker(
+                [-15.864378148033506, -47.890681548345654],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_61dc1010f4234854ad677b288d9c7494 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29ab9e8189f244f99bf5fe2713cf0db5.setIcon(icon_61dc1010f4234854ad677b288d9c7494);
+        
+    
+            marker_29ab9e8189f244f99bf5fe2713cf0db5.bindTooltip(
+                `<div>
+                     UBS 10 JOAO CANDIDO SAO SEBASTIAO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41949c2e88ec4f199960f95f55eb9d89 = L.marker(
+                [-15.866819858551025, -47.973857419244176],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_9aca42562c0745da98c3b89dd7e581e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41949c2e88ec4f199960f95f55eb9d89.setIcon(icon_9aca42562c0745da98c3b89dd7e581e8);
+        
+    
+            marker_41949c2e88ec4f199960f95f55eb9d89.bindTooltip(
+                `<div>
+                     UBS 01 NUCLEO BANDEIRANTE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_374741c5683441c29113a6e1146d8802 = L.marker(
+                [-15.841411540382786, -47.94975416283859],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_8dbbc8bc1de1462ba21ce6db719a2553 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_374741c5683441c29113a6e1146d8802.setIcon(icon_8dbbc8bc1de1462ba21ce6db719a2553);
+        
+    
+            marker_374741c5683441c29113a6e1146d8802.bindTooltip(
+                `<div>
+                     UBS 01 CANDANGOLANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c263de7216a47e688eabc68cc13cc8e = L.marker(
+                [-15.87566774232047, -48.00891472044445],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_a090943b7f5f4f72a44b2b4f1ef2a88f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c263de7216a47e688eabc68cc13cc8e.setIcon(icon_a090943b7f5f4f72a44b2b4f1ef2a88f);
+        
+    
+            marker_8c263de7216a47e688eabc68cc13cc8e.bindTooltip(
+                `<div>
+                     UBS 01 RIACHO FUNDO I
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96e6db3c7b4c41d69b985ec0e92bcbcc = L.marker(
+                [-15.91755424452222, -48.017727229220796],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_431b464868ef424e90ddb30d0d20d870 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96e6db3c7b4c41d69b985ec0e92bcbcc.setIcon(icon_431b464868ef424e90ddb30d0d20d870);
+        
+    
+            marker_96e6db3c7b4c41d69b985ec0e92bcbcc.bindTooltip(
+                `<div>
+                     UBS 02 RIACHO FUNDO II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9824d203c7914bbcb96eb53007f7ef24 = L.marker(
+                [-15.908089901719775, -48.024222271782996],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_9873eb4177a044a9a26d18fa40ac7d8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9824d203c7914bbcb96eb53007f7ef24.setIcon(icon_9873eb4177a044a9a26d18fa40ac7d8a);
+        
+    
+            marker_9824d203c7914bbcb96eb53007f7ef24.bindTooltip(
+                `<div>
+                     UBS 01 RIACHO FUNDO II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d7d3a38b7b64b31bd80546ce58943b2 = L.marker(
+                [-15.812510419247756, -48.0168599940058],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_5a2ab08a6a594ec69604eb4a1d5debbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d7d3a38b7b64b31bd80546ce58943b2.setIcon(icon_5a2ab08a6a594ec69604eb4a1d5debbe);
+        
+    
+            marker_8d7d3a38b7b64b31bd80546ce58943b2.bindTooltip(
+                `<div>
+                     UBS 01 VICENTE PIRES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1327091f1306400aa55b91941e94031a = L.marker(
+                [-15.80874183361347, -48.06018289419321],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_8738190fdf14478d8edb18bf05ce74dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1327091f1306400aa55b91941e94031a.setIcon(icon_8738190fdf14478d8edb18bf05ce74dc);
+        
+    
+            marker_1327091f1306400aa55b91941e94031a.bindTooltip(
+                `<div>
+                     HRT HOSPITAL REGIONAL DE TAGUATINGA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cac1e7eb60154d878e96b765c82cf92e = L.marker(
+                [-15.826443090892973, -48.074629393078034],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_f142630aa26f441982b233fbbf6531fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cac1e7eb60154d878e96b765c82cf92e.setIcon(icon_f142630aa26f441982b233fbbf6531fa);
+        
+    
+            marker_cac1e7eb60154d878e96b765c82cf92e.bindTooltip(
+                `<div>
+                     UBS 01 TAGUATINGA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_776f66bb1a954226b54f352bfe79f2f3 = L.marker(
+                [-15.826443090892973, -48.074629393078034],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_7f8edd6a369c4f4182b1d0a86580a298 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_776f66bb1a954226b54f352bfe79f2f3.setIcon(icon_7f8edd6a369c4f4182b1d0a86580a298);
+        
+    
+            marker_776f66bb1a954226b54f352bfe79f2f3.bindTooltip(
+                `<div>
+                     UBS 08 TAGUATINGA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1ae09423468406daa146b73ba5d7ab5 = L.marker(
+                [-15.826443090892973, -48.074629393078034],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_071df8be9ed8458e9de1b9f6cae939f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f1ae09423468406daa146b73ba5d7ab5.setIcon(icon_071df8be9ed8458e9de1b9f6cae939f4);
+        
+    
+            marker_f1ae09423468406daa146b73ba5d7ab5.bindTooltip(
+                `<div>
+                     UBS 06 TAGUATINGA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b617783830d4117a08dc0033838872e = L.marker(
+                [-15.826443090892973, -48.074629393078034],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_8f11e8045fe246a5b245bb2e1e3f65db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b617783830d4117a08dc0033838872e.setIcon(icon_8f11e8045fe246a5b245bb2e1e3f65db);
+        
+    
+            marker_5b617783830d4117a08dc0033838872e.bindTooltip(
+                `<div>
+                     UBS 05 TAGUATINGA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc98a9781c2b4bf2911523ee8131e6db = L.marker(
+                [-15.807500712076823, -48.106615627513214],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_2c206fe10f4e427e87b7badb6d621117 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc98a9781c2b4bf2911523ee8131e6db.setIcon(icon_2c206fe10f4e427e87b7badb6d621117);
+        
+    
+            marker_bc98a9781c2b4bf2911523ee8131e6db.bindTooltip(
+                `<div>
+                     UBS 5 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc2c88dee6d84dbf9936b47f76c3892a = L.marker(
+                [-15.825484525073659, -48.095874410687095],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_ec84f534e35c4ff8a006c1457492abeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dc2c88dee6d84dbf9936b47f76c3892a.setIcon(icon_ec84f534e35c4ff8a006c1457492abeb);
+        
+    
+            marker_dc2c88dee6d84dbf9936b47f76c3892a.bindTooltip(
+                `<div>
+                     HOSPITAL REGIONAL DE CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d323a6b1532941d59f206f80ed2cfaa5 = L.marker(
+                [-15.825484525073659, -48.095874410687095],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_ee6e6a97e5a4478db01605a36b6a0901 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d323a6b1532941d59f206f80ed2cfaa5.setIcon(icon_ee6e6a97e5a4478db01605a36b6a0901);
+        
+    
+            marker_d323a6b1532941d59f206f80ed2cfaa5.bindTooltip(
+                `<div>
+                     UBS 3 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b884cb952574cc4965806d2803f0d05 = L.marker(
+                [-15.831220782660191, -48.106954462387996],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_92cb769e52304d3eb78580228e6030a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b884cb952574cc4965806d2803f0d05.setIcon(icon_92cb769e52304d3eb78580228e6030a9);
+        
+    
+            marker_7b884cb952574cc4965806d2803f0d05.bindTooltip(
+                `<div>
+                     UBS 10 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e16eab552d18469382487e8ad3d81dfe = L.marker(
+                [-15.813798179751949, -48.113367143430224],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_1269376466f44e4587611b5acddaa2f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e16eab552d18469382487e8ad3d81dfe.setIcon(icon_1269376466f44e4587611b5acddaa2f9);
+        
+    
+            marker_e16eab552d18469382487e8ad3d81dfe.bindTooltip(
+                `<div>
+                     UBS 2 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8433db6a71494fbeac53a6b7ff606edc = L.marker(
+                [-15.84111021368543, -48.11308088355303],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_e236d50c5cb848f6bf7d1228aeebd1d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8433db6a71494fbeac53a6b7ff606edc.setIcon(icon_e236d50c5cb848f6bf7d1228aeebd1d0);
+        
+    
+            marker_8433db6a71494fbeac53a6b7ff606edc.bindTooltip(
+                `<div>
+                     UBS 17 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a640f0fb7c548ab95145c581ac16086 = L.marker(
+                [-15.84111021368543, -48.11308088355303],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_115afcacaa334b1ea47b0999a2faf8b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a640f0fb7c548ab95145c581ac16086.setIcon(icon_115afcacaa334b1ea47b0999a2faf8b6);
+        
+    
+            marker_7a640f0fb7c548ab95145c581ac16086.bindTooltip(
+                `<div>
+                     UBS 6 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e711821cc6cb4e2cba9a087a71036783 = L.marker(
+                [-15.84760163281415, -48.11845927195506],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_c3bf76f53acf4f3ba1ed39d476f3bc8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e711821cc6cb4e2cba9a087a71036783.setIcon(icon_c3bf76f53acf4f3ba1ed39d476f3bc8c);
+        
+    
+            marker_e711821cc6cb4e2cba9a087a71036783.bindTooltip(
+                `<div>
+                     UBS 16 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d65eab12cf5b4c66a84a649f82390a78 = L.marker(
+                [-15.811110930009322, -48.1308926402272],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_c9c82d0975a442e19a77c731968b7cfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d65eab12cf5b4c66a84a649f82390a78.setIcon(icon_c9c82d0975a442e19a77c731968b7cfd);
+        
+    
+            marker_d65eab12cf5b4c66a84a649f82390a78.bindTooltip(
+                `<div>
+                     UBS 8 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a40b0a1650a4966b9a16545a3197555 = L.marker(
+                [-15.798767979939779, -48.120944286528086],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_1ab60625a8e847da8fc5beb03846de82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a40b0a1650a4966b9a16545a3197555.setIcon(icon_1ab60625a8e847da8fc5beb03846de82);
+        
+    
+            marker_2a40b0a1650a4966b9a16545a3197555.bindTooltip(
+                `<div>
+                     UBS 7 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea0e482bd7ea4d53aec19ad323ab0bdd = L.marker(
+                [-15.887040615081787, -47.89776484171549],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_605c710b844f4af18bdb6af892b12ad7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea0e482bd7ea4d53aec19ad323ab0bdd.setIcon(icon_605c710b844f4af18bdb6af892b12ad7);
+        
+    
+            marker_ea0e482bd7ea4d53aec19ad323ab0bdd.bindTooltip(
+                `<div>
+                     UBS 07 SAMAMBAIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac56d88ae1ef4300ab76b899071a389c = L.marker(
+                [-15.869341727741604, -48.065224631538605],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_c7043ff4413e4981a7c91c3cbd8b3434 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac56d88ae1ef4300ab76b899071a389c.setIcon(icon_c7043ff4413e4981a7c91c3cbd8b3434);
+        
+    
+            marker_ac56d88ae1ef4300ab76b899071a389c.bindTooltip(
+                `<div>
+                     UBS 12 SAMAMBAIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af83b77a70274e9eac1784ca038d3753 = L.marker(
+                [-16.02397150807566, -48.13530106977983],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_0d3c9a07862946b0bbac185f92c51766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af83b77a70274e9eac1784ca038d3753.setIcon(icon_0d3c9a07862946b0bbac185f92c51766);
+        
+    
+            marker_af83b77a70274e9eac1784ca038d3753.bindTooltip(
+                `<div>
+                     UBS 05 SAMAMBAIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1172f6f00ac4d31ae76537d5fb82f01 = L.marker(
+                [-15.857145661893098, -48.082331284232744],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_eaae8b225e3544e488bf991091755fb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1172f6f00ac4d31ae76537d5fb82f01.setIcon(icon_eaae8b225e3544e488bf991091755fb1);
+        
+    
+            marker_c1172f6f00ac4d31ae76537d5fb82f01.bindTooltip(
+                `<div>
+                     HRSAM HOSPITAL REGIONAL DE SAMAMBAIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7eebc1d5819747119180afab7c6f8389 = L.marker(
+                [-15.869925821427818, -48.103893911238195],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_d4b8e3d431f64affb7a6ff167ab38071 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7eebc1d5819747119180afab7c6f8389.setIcon(icon_d4b8e3d431f64affb7a6ff167ab38071);
+        
+    
+            marker_7eebc1d5819747119180afab7c6f8389.bindTooltip(
+                `<div>
+                     UBS 02 SAMAMBAIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b7cd9a4f73643cbbeed3b121d253f50 = L.marker(
+                [-15.871167599713361, -47.98021073517977],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_db63cb240e53488faa219fc6e53eb47a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b7cd9a4f73643cbbeed3b121d253f50.setIcon(icon_db63cb240e53488faa219fc6e53eb47a);
+        
+    
+            marker_7b7cd9a4f73643cbbeed3b121d253f50.bindTooltip(
+                `<div>
+                     UBS 5 GAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bddc3e0a07a949a3b730137c3c3ca7b3 = L.marker(
+                [-15.871167599713361, -47.98021073517977],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_1c3325dfbc554bbead38914ce08b94d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bddc3e0a07a949a3b730137c3c3ca7b3.setIcon(icon_1c3325dfbc554bbead38914ce08b94d3);
+        
+    
+            marker_bddc3e0a07a949a3b730137c3c3ca7b3.bindTooltip(
+                `<div>
+                     HRG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e2ad507d608434cbe9f49c2e3313c27 = L.marker(
+                [-16.036695, -48.06098],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_2a190098d485483a98795454fc16f2cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e2ad507d608434cbe9f49c2e3313c27.setIcon(icon_2a190098d485483a98795454fc16f2cb);
+        
+    
+            marker_6e2ad507d608434cbe9f49c2e3313c27.bindTooltip(
+                `<div>
+                     UBS 2 GAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d40cd8b046764922b5ba16521a18957c = L.marker(
+                [-16.020679, -48.084848],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_0736b3b3986c437893f22d4e0bbea17b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d40cd8b046764922b5ba16521a18957c.setIcon(icon_0736b3b3986c437893f22d4e0bbea17b);
+        
+    
+            marker_d40cd8b046764922b5ba16521a18957c.bindTooltip(
+                `<div>
+                     UBS 1 GAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_812f867aae9a40b78c6f64f52cb53fe6 = L.marker(
+                [-15.901141946965998, -47.99284033341843],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_0904fa14a7ad4936af0ce64b241e4191 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_812f867aae9a40b78c6f64f52cb53fe6.setIcon(icon_0904fa14a7ad4936af0ce64b241e4191);
+        
+    
+            marker_812f867aae9a40b78c6f64f52cb53fe6.bindTooltip(
+                `<div>
+                     UBS 15 PFDF GAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d578dfa2a22347d686fe570867dc6788 = L.marker(
+                [-16.04388, -48.254283],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_1c4c1bb696014a179beedb9bc7b68470 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d578dfa2a22347d686fe570867dc6788.setIcon(icon_1c4c1bb696014a179beedb9bc7b68470);
+        
+    
+            marker_d578dfa2a22347d686fe570867dc6788.bindTooltip(
+                `<div>
+                     UBS 9 ENGENHO DAS LAGES GAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac5a7a215031431bac692fc0e956c5b5 = L.marker(
+                [-16.005841, -48.052746],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_b4a0e3f746324bfd9ac15734849a8c98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac5a7a215031431bac692fc0e956c5b5.setIcon(icon_b4a0e3f746324bfd9ac15734849a8c98);
+        
+    
+            marker_ac5a7a215031431bac692fc0e956c5b5.bindTooltip(
+                `<div>
+                     UBS 3 GAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_103b012a30cc40e29ff411e7258878d9 = L.marker(
+                [-15.94920794169108, -47.9893864414148],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_938c9cba37dd4144ac1fb03f8b6a65c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_103b012a30cc40e29ff411e7258878d9.setIcon(icon_938c9cba37dd4144ac1fb03f8b6a65c8);
+        
+    
+            marker_103b012a30cc40e29ff411e7258878d9.bindTooltip(
+                `<div>
+                     UBS 4 GAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e3a14d42715409bb2da68000f936140 = L.marker(
+                [-15.967984040578207, -48.03102442423503],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_f10fa665dbd140e8aa45e7ad19dd93f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e3a14d42715409bb2da68000f936140.setIcon(icon_f10fa665dbd140e8aa45e7ad19dd93f0);
+        
+    
+            marker_3e3a14d42715409bb2da68000f936140.bindTooltip(
+                `<div>
+                     UBS 7 GAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c39c96bd1ef4c27a81308ebf530def8 = L.marker(
+                [-15.967984040578207, -48.03102442423503],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_34bfbcad68954aa78c0feb0578b343d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c39c96bd1ef4c27a81308ebf530def8.setIcon(icon_34bfbcad68954aa78c0feb0578b343d4);
+        
+    
+            marker_1c39c96bd1ef4c27a81308ebf530def8.bindTooltip(
+                `<div>
+                     UBS 6 GAMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd8784077e8a4ddd985af0f1537759da = L.marker(
+                [-16.03196442568743, -48.022270202636726],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_9e9cafe43eb34c43bbc34cdfe561ff8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd8784077e8a4ddd985af0f1537759da.setIcon(icon_9e9cafe43eb34c43bbc34cdfe561ff8e);
+        
+    
+            marker_cd8784077e8a4ddd985af0f1537759da.bindTooltip(
+                `<div>
+                     UBS 3 SANTA MARIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d45213ae283e4ff78bc67489b497c44d = L.marker(
+                [-16.01147123129971, -48.01521705719362],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_bd450d4a35a549f290fac8cf6e494e20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d45213ae283e4ff78bc67489b497c44d.setIcon(icon_bd450d4a35a549f290fac8cf6e494e20);
+        
+    
+            marker_d45213ae283e4ff78bc67489b497c44d.bindTooltip(
+                `<div>
+                     UBS 6 SANTA MARIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c91a01ca46347c492d601eea2af9f16 = L.marker(
+                [-15.980256274126578, -48.008534085923344],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_1f560ffe91eb4a05b2376e82bfd6cf2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0c91a01ca46347c492d601eea2af9f16.setIcon(icon_1f560ffe91eb4a05b2376e82bfd6cf2f);
+        
+    
+            marker_0c91a01ca46347c492d601eea2af9f16.bindTooltip(
+                `<div>
+                     UBS 1 SANTA MARIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34226ac1b7a24dceb5abfd6722ec5e65 = L.marker(
+                [-15.990549392170376, -48.006291654374856],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_ecb73950835a4ecfb2a12c2884ebbebc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34226ac1b7a24dceb5abfd6722ec5e65.setIcon(icon_ecb73950835a4ecfb2a12c2884ebbebc);
+        
+    
+            marker_34226ac1b7a24dceb5abfd6722ec5e65.bindTooltip(
+                `<div>
+                     UBS 5 SANTA MARIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_918c4fc2eb70437c9df19987e36409f1 = L.marker(
+                [-15.973992788303665, -47.971701638740406],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_85cae4217c754024b0e8b59db2643f35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_918c4fc2eb70437c9df19987e36409f1.setIcon(icon_85cae4217c754024b0e8b59db2643f35);
+        
+    
+            marker_918c4fc2eb70437c9df19987e36409f1.bindTooltip(
+                `<div>
+                     UBS 2 SANTA MARIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9092e71943d4afcb5320c6772aeec02 = L.marker(
+                [-15.967591567915314, -47.98481590893804],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_c4ae21df0b6844cca47370bd0fc7ebf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9092e71943d4afcb5320c6772aeec02.setIcon(icon_c4ae21df0b6844cca47370bd0fc7ebf3);
+        
+    
+            marker_e9092e71943d4afcb5320c6772aeec02.bindTooltip(
+                `<div>
+                     UBS 7 SANTA MARIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9da4036d6dc241fc9a0a30b708118936 = L.marker(
+                [-15.876106190080403, -47.855648553671955],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_e09e55abea5842569e2d509dd1f83a51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9da4036d6dc241fc9a0a30b708118936.setIcon(icon_e09e55abea5842569e2d509dd1f83a51);
+        
+    
+            marker_9da4036d6dc241fc9a0a30b708118936.bindTooltip(
+                `<div>
+                     UBS 08 RECANTO DAS EMAS SAO FRANCISCO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27bff14f925945b99f8fad04ccc29169 = L.marker(
+                [-15.876106190080403, -47.855648553671955],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_919390609b5d425fb75c32afc03d3557 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27bff14f925945b99f8fad04ccc29169.setIcon(icon_919390609b5d425fb75c32afc03d3557);
+        
+    
+            marker_27bff14f925945b99f8fad04ccc29169.bindTooltip(
+                `<div>
+                     UBS 02 RECANTO DAS EMAS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_883ca080316348599f505cc5a57853e4 = L.marker(
+                [-15.876106190080403, -47.855648553671955],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_f748b821e1d5445bbb79577cf272a230 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_883ca080316348599f505cc5a57853e4.setIcon(icon_f748b821e1d5445bbb79577cf272a230);
+        
+    
+            marker_883ca080316348599f505cc5a57853e4.bindTooltip(
+                `<div>
+                     UBS 03 RECANTO DAS EMAS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8dfbd6430e47409fab0e3d54f2b010a5 = L.marker(
+                [-15.800512144837198, -47.980129773103734],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_28a8f417c5e54bb1936b2f5b49bde40c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8dfbd6430e47409fab0e3d54f2b010a5.setIcon(icon_28a8f417c5e54bb1936b2f5b49bde40c);
+        
+    
+            marker_8dfbd6430e47409fab0e3d54f2b010a5.bindTooltip(
+                `<div>
+                     UBS 1 BRAZLANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5448e3f60a174b98994c6bcd4a68ca08 = L.marker(
+                [-15.840778025713833, -47.96120158108798],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_2f396f5e04ef44508e597c80b5c575fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5448e3f60a174b98994c6bcd4a68ca08.setIcon(icon_2f396f5e04ef44508e597c80b5c575fb);
+        
+    
+            marker_5448e3f60a174b98994c6bcd4a68ca08.bindTooltip(
+                `<div>
+                     HRBZ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_544cee392bde4b7eb467d6f7fa1040a7 = L.marker(
+                [-15.70700486501058, -47.769151263766815],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_5d5cf1f8fa6f4dfd87225d1cf7e16b18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_544cee392bde4b7eb467d6f7fa1040a7.setIcon(icon_5d5cf1f8fa6f4dfd87225d1cf7e16b18);
+        
+    
+            marker_544cee392bde4b7eb467d6f7fa1040a7.bindTooltip(
+                `<div>
+                     UBS 5 SETOR DE MANSOES SOBRADINHO II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9116ee9d2552472abf1b87e708ac9056 = L.marker(
+                [-15.777152044731274, -47.910787047001335],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_62a4ebafafd445e6a99c5728e5e72a79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9116ee9d2552472abf1b87e708ac9056.setIcon(icon_62a4ebafafd445e6a99c5728e5e72a79);
+        
+    
+            marker_9116ee9d2552472abf1b87e708ac9056.bindTooltip(
+                `<div>
+                     UBS 1 SOBRADINHO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b806d5a1b60d497abed9d08927efe9ce = L.marker(
+                [-15.653221698517495, -47.82841878579864],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_2ea7475b638c4e01b540261b90d7d08d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b806d5a1b60d497abed9d08927efe9ce.setIcon(icon_2ea7475b638c4e01b540261b90d7d08d);
+        
+    
+            marker_b806d5a1b60d497abed9d08927efe9ce.bindTooltip(
+                `<div>
+                     UBS 1 SOBRADINHO II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c45be83e525a4a1bad2e105441729ff5 = L.marker(
+                [-15.637057065963745, -47.820850451787315],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_917124c6ea2447e2aedfc5b687947f61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c45be83e525a4a1bad2e105441729ff5.setIcon(icon_917124c6ea2447e2aedfc5b687947f61);
+        
+    
+            marker_c45be83e525a4a1bad2e105441729ff5.bindTooltip(
+                `<div>
+                     UBS 2 SOBRADINHO II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53e6022cfc284d84bcb2d307c6e6f5b6 = L.marker(
+                [-15.64531161738377, -47.83638239841835],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_11d5bbf26bb749fd866b9e86e54421d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_53e6022cfc284d84bcb2d307c6e6f5b6.setIcon(icon_11d5bbf26bb749fd866b9e86e54421d7);
+        
+    
+            marker_53e6022cfc284d84bcb2d307c6e6f5b6.bindTooltip(
+                `<div>
+                     UBS 4 SETOR DE MANSOES SOBRADINHO II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b92c94914e8840c5be9396ee6d1ee18d = L.marker(
+                [-15.600348, -47.8715],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_e8ceca579bcb4405a4c13b84561f5df1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b92c94914e8840c5be9396ee6d1ee18d.setIcon(icon_e8ceca579bcb4405a4c13b84561f5df1);
+        
+    
+            marker_b92c94914e8840c5be9396ee6d1ee18d.bindTooltip(
+                `<div>
+                     UBS 1 ENGENHO VELHO FERCAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47671a07016a4a13a41a7bc359c8e198 = L.marker(
+                [-15.724712286422502, -47.83728238006136],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_d7e908005a8847c6aef83a3aaec95bb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47671a07016a4a13a41a7bc359c8e198.setIcon(icon_d7e908005a8847c6aef83a3aaec95bb0);
+        
+    
+            marker_47671a07016a4a13a41a7bc359c8e198.bindTooltip(
+                `<div>
+                     HRPL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1d53afcae7b4eb7a254cd941c6debe3 = L.marker(
+                [-15.724712286422502, -47.83728238006136],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_4cd52c4779fd41e78c27a668e2d9f6ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f1d53afcae7b4eb7a254cd941c6debe3.setIcon(icon_4cd52c4779fd41e78c27a668e2d9f6ad);
+        
+    
+            marker_f1d53afcae7b4eb7a254cd941c6debe3.bindTooltip(
+                `<div>
+                     UBS 20 PLANALTINA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65f144fbc7d344cc830cd40ae2dfc070 = L.marker(
+                [-15.724712286422502, -47.83728238006136],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_e78d35ff67b0442a923a747372fa5ea5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_65f144fbc7d344cc830cd40ae2dfc070.setIcon(icon_e78d35ff67b0442a923a747372fa5ea5);
+        
+    
+            marker_65f144fbc7d344cc830cd40ae2dfc070.bindTooltip(
+                `<div>
+                     UBS 3 PLANALTINA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf74eb34f63b4781873a2729e73ed828 = L.marker(
+                [-15.753944139702375, -47.87952875536541],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_da29a11402e4426b806b1f7b2213ff06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf74eb34f63b4781873a2729e73ed828.setIcon(icon_da29a11402e4426b806b1f7b2213ff06);
+        
+    
+            marker_cf74eb34f63b4781873a2729e73ed828.bindTooltip(
+                `<div>
+                     UBS 5 PLANALTINA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab58a3a331eb46b29130b48097d4bca8 = L.marker(
+                [-15.800668716430664, -47.86128234863281],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_b10f0f776d0449c9bce53c8dac18f8be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab58a3a331eb46b29130b48097d4bca8.setIcon(icon_b10f0f776d0449c9bce53c8dac18f8be);
+        
+    
+            marker_ab58a3a331eb46b29130b48097d4bca8.bindTooltip(
+                `<div>
+                     DEPARTAMENTO MEDICO CAMARA DOS DEPUTADOS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e73dabf422d4b018a1fa5453b2d5413 = L.marker(
+                [-15.798625946044922, -47.88549041748047],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_d92390473bb64df980b4114d207a8f8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e73dabf422d4b018a1fa5453b2d5413.setIcon(icon_d92390473bb64df980b4114d207a8f8f);
+        
+    
+            marker_4e73dabf422d4b018a1fa5453b2d5413.bindTooltip(
+                `<div>
+                     HOSPITAL NAVAL DE BRASILIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_237278111c80403b831cdef8342cbf28 = L.marker(
+                [-15.789052606743073, -47.938734321950754],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_2f86354087224c4f96e738791fa66cb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_237278111c80403b831cdef8342cbf28.setIcon(icon_2f86354087224c4f96e738791fa66cb8);
+        
+    
+            marker_237278111c80403b831cdef8342cbf28.bindTooltip(
+                `<div>
+                     HOSPITAL MILITAR DE AREA DE BRASILIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a33fd989e76f4567a4b16adbfacc024f = L.marker(
+                [-15.789576006185323, -47.92953029852262],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_ef95c5bb1834481b98854de932471091 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a33fd989e76f4567a4b16adbfacc024f.setIcon(icon_ef95c5bb1834481b98854de932471091);
+        
+    
+            marker_a33fd989e76f4567a4b16adbfacc024f.bindTooltip(
+                `<div>
+                     HFA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab5b0ea830904caeb2c0e00e3d216b1f = L.marker(
+                [-15.871528625488281, -47.905290603637695],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_e7f5a64d459b4041863e319f488b6d1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab5b0ea830904caeb2c0e00e3d216b1f.setIcon(icon_e7f5a64d459b4041863e319f488b6d1b);
+        
+    
+            marker_ab5b0ea830904caeb2c0e00e3d216b1f.bindTooltip(
+                `<div>
+                     HOSPITAL DE FORCA AEREA DE BRASILIA HFAB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_510fac34233e45c6a9a2215d7b8c58cb = L.marker(
+                [-15.798625946044922, -47.88549041748047],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_a193fc07fe194c0aadb348559d81735a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_510fac34233e45c6a9a2215d7b8c58cb.setIcon(icon_a193fc07fe194c0aadb348559d81735a);
+        
+    
+            marker_510fac34233e45c6a9a2215d7b8c58cb.bindTooltip(
+                `<div>
+                     HOSPITAL UNIVERSITARIO DE BRASILIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f9944b4920b4fb4b456c2041554ece4 = L.marker(
+                [-15.80069669087728, -47.8891970316569],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_f06d46d04d264e8e9cdda769c1791726 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f9944b4920b4fb4b456c2041554ece4.setIcon(icon_f06d46d04d264e8e9cdda769c1791726);
+        
+    
+            marker_4f9944b4920b4fb4b456c2041554ece4.bindTooltip(
+                `<div>
+                     HOSPITAL DE BASE DO DISTRITO FEDERAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2de13a4d97294c01b8823a44e28386d7 = L.marker(
+                [-16.01147123129971, -48.01521705719362],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_4cbd20d2c53043388d676602f7c9379b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2de13a4d97294c01b8823a44e28386d7.setIcon(icon_4cbd20d2c53043388d676602f7c9379b);
+        
+    
+            marker_2de13a4d97294c01b8823a44e28386d7.bindTooltip(
+                `<div>
+                     HRSM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8124c6d8ee774a23b0135c87406d2e73 = L.marker(
+                [-15.722845106858474, -47.92129557682918],
+                {}
+            ).addTo(feature_group_5e17b9c13fc14b9cb235b98a48ddd045);
+        
+    
+            var icon_127930646b2442afb357703696225918 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8124c6d8ee774a23b0135c87406d2e73.setIcon(icon_127930646b2442afb357703696225918);
+        
+    
+            marker_8124c6d8ee774a23b0135c87406d2e73.bindTooltip(
+                `<div>
+                     HRS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_2991feba15b042a48dcf87b1b9729887 = L.featureGroup(
+                {}
+            ).addTo(map_d41a23f12bc1464f9ce452f17ccf4d2a);
+        
+    
+            var marker_7b220986120b4e93928de400f067d5b6 = L.marker(
+                [-15.821935796737671, -47.89060411453247],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_c6b0bb363fc9452bb46c59fef8c8fa15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b220986120b4e93928de400f067d5b6.setIcon(icon_c6b0bb363fc9452bb46c59fef8c8fa15);
+        
+    
+            marker_7b220986120b4e93928de400f067d5b6.bindTooltip(
+                `<div>
+                     UBS 01 ASA SUL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e1c0c6c6b9c44899130b3d834ab3d78 = L.marker(
+                [-15.749557124243843, -47.89183023240831],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_a4326686d8ea4f188691d9013155ad69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e1c0c6c6b9c44899130b3d834ab3d78.setIcon(icon_a4326686d8ea4f188691d9013155ad69);
+        
+    
+            marker_3e1c0c6c6b9c44899130b3d834ab3d78.bindTooltip(
+                `<div>
+                     UBS 2 ASA NORTE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2341ef45769341a1a26841f7c54fff49 = L.marker(
+                [-15.812510419247756, -48.0168599940058],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_6789861691144a8eac7ad6a3278aa3cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2341ef45769341a1a26841f7c54fff49.setIcon(icon_6789861691144a8eac7ad6a3278aa3cb);
+        
+    
+            marker_2341ef45769341a1a26841f7c54fff49.bindTooltip(
+                `<div>
+                     UBS 01 VICENTE PIRES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35fac2ae20594be59a15454c1a9e55a1 = L.marker(
+                [-15.856493992275661, -47.86401087443034],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_dc97a4bc96f94075a61d4cf61f7b5968 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_35fac2ae20594be59a15454c1a9e55a1.setIcon(icon_dc97a4bc96f94075a61d4cf61f7b5968);
+        
+    
+            marker_35fac2ae20594be59a15454c1a9e55a1.bindTooltip(
+                `<div>
+                     POLICLINICA LAGO SUL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c55c95463f0447aa6333fb073fe29e8 = L.marker(
+                [-15.789749740006087, -47.93998738078328],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_8ae98526ed88470ea64ead09d15c0aa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c55c95463f0447aa6333fb073fe29e8.setIcon(icon_8ae98526ed88470ea64ead09d15c0aa5);
+        
+    
+            marker_9c55c95463f0447aa6333fb073fe29e8.bindTooltip(
+                `<div>
+                     UBS 2 CRUZEIRO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77ed59d9736c4bdeab3a869216d3a7c6 = L.marker(
+                [-15.807500712076823, -48.106615627513214],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_91f3b61bdd084dda8e2148bf6c87155b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77ed59d9736c4bdeab3a869216d3a7c6.setIcon(icon_91f3b61bdd084dda8e2148bf6c87155b);
+        
+    
+            marker_77ed59d9736c4bdeab3a869216d3a7c6.bindTooltip(
+                `<div>
+                     UBS 5 CEILANDIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_471433e7672141ab8eb2471667200a43 = L.marker(
+                [-15.869925821427818, -48.103893911238195],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_12b99378a7d348c386b00a8ac76b2503 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_471433e7672141ab8eb2471667200a43.setIcon(icon_12b99378a7d348c386b00a8ac76b2503);
+        
+    
+            marker_471433e7672141ab8eb2471667200a43.bindTooltip(
+                `<div>
+                     UBS 02 SAMAMBAIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76b08ea25f1446b28dbdc37dc71a3165 = L.marker(
+                [-15.826443090892973, -48.074629393078034],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_a41707cabb9c4f8e8bd36c5da263a1c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76b08ea25f1446b28dbdc37dc71a3165.setIcon(icon_a41707cabb9c4f8e8bd36c5da263a1c2);
+        
+    
+            marker_76b08ea25f1446b28dbdc37dc71a3165.bindTooltip(
+                `<div>
+                     UBS 05 TAGUATINGA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac03a0f850a3424e940f4d9abd055fb8 = L.marker(
+                [-15.829805850982666, -47.97182893753052],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_ea46978e93464686919de82548233624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac03a0f850a3424e940f4d9abd055fb8.setIcon(icon_ea46978e93464686919de82548233624);
+        
+    
+            marker_ac03a0f850a3424e940f4d9abd055fb8.bindTooltip(
+                `<div>
+                     UBS 02 GUARA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1564ad4cec644ecab570d3c1924161f = L.marker(
+                [-15.826443090892973, -48.074629393078034],
+                {}
+            ).addTo(feature_group_2991feba15b042a48dcf87b1b9729887);
+        
+    
+            var icon_867f59e4a2284778b41d7826a469c68d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a1564ad4cec644ecab570d3c1924161f.setIcon(icon_867f59e4a2284778b41d7826a469c68d);
+        
+    
+            marker_a1564ad4cec644ecab570d3c1924161f.bindTooltip(
+                `<div>
+                     UBS 01 TAGUATINGA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var measure_control_31b15ad1269848c1bcb65c01c7134142 = new L.Control.Measure(
+                {"position": "topright", "primaryAreaUnit": "sqmeters", "primaryLengthUnit": "meters", "secondaryAreaUnit": "acres", "secondaryLengthUnit": "miles"});
+            map_d41a23f12bc1464f9ce452f17ccf4d2a.addControl(measure_control_31b15ad1269848c1bcb65c01c7134142);
+
+        
+    
+                var lat_lng_popup_5badc4b03cbd4f64bc811cd08ea9feb5 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_5badc4b03cbd4f64bc811cd08ea9feb5
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_d41a23f12bc1464f9ce452f17ccf4d2a);
+                    }
+                map_d41a23f12bc1464f9ce452f17ccf4d2a.on('click', latLngPop);
+            
+    
+            var layer_control_b0621cf281294224804cbdae69dd7342 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_80dce3334a4e48f7870466291ad01df3,
+                },
+                overlays :  {
+                    "Deslocamento \u003e 30 km" : feature_group_b793fed651ab41119312f035361e979b,
+                    "UBS Distrito Federal" : feature_group_5e17b9c13fc14b9cb235b98a48ddd045,
+                    "UBS com maior atendimento" : feature_group_2991feba15b042a48dcf87b1b9729887,
+                },
+            };
+            L.control.layers(
+                layer_control_b0621cf281294224804cbdae69dd7342.base_layers,
+                layer_control_b0621cf281294224804cbdae69dd7342.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_d41a23f12bc1464f9ce452f17ccf4d2a);
+        
+</script>
