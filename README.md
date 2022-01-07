@@ -1,4 +1,4 @@
-#  Análise da distribuição de postos de vacinação de Covid-19 em Brasília
+#  Análise da distribuição geográfica de postos de vacinação de Covid-19 em Brasília
 
 Essa análise é resultado do trabalho final da disciplina de "Softwares para Ciência de Dados 3" da pós graduação em Ciência de Dados do IESB em Brasília 🤓
 
